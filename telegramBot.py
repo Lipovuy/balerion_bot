@@ -11,7 +11,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     # Создаем приложение с токеном вашего бота
-    TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"  # <- вставь сюда токен от BotFather
+    TOKEN = "8445533025:AAFPXiVyQyns3K-UeBzI2SjVBLg5f4VI_fw"  # <- вставь сюда токен от BotFather
     app = ApplicationBuilder().token(TOKEN).build()
 
     # Добавляем обработчики команд
@@ -21,3 +21,4 @@ if __name__ == "__main__":
     # Запускаем бота
     print("Бот запущен...")
     app.run_polling()
+
